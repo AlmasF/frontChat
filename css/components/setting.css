@@ -1,0 +1,38 @@
+.button {
+    height: 50px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #00A2DC;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.input-file {
+    position: relative;
+    margin-bottom: 20px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.input-file img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.input-file input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    left: 0;
+    cursor: pointer;
+}

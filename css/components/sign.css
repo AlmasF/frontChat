@@ -1,0 +1,66 @@
+.sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.sign .sign-menu {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.sign .number{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sign label {
+    margin-bottom: 10px;
+}
+
+.sign input {
+    padding: 5px 10px;
+}
+
+.sign a {
+    color: #5fa9f3;
+}
+.sign button {
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #8abff5;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.sign button.setting {
+    opacity: 1;
+}
+
+.sign button.active {
+    opacity: 1;
+}
+
+.sign button:hover {
+    background-color: #5fa9f3;
+}
+
+.sign-menu .in-use {
+    font-weight: 600;
+    font-size: 20px;
+} 
+
+.sign a {
+    margin-top: 20px;
+}
+
+.sign .sign-menu a {
+    margin-top: 0px;
+}

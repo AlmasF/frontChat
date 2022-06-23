@@ -1,0 +1,22 @@
+.chat-user {
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #1f65ac;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.chat-user img{
+    width: 32px;
+    margin-right: 30px;
+    cursor: pointer;
+    filter: invert(100);
+}
+
+.chat-user p {
+    font-size: 32px;
+}

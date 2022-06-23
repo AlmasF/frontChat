@@ -1,0 +1,84 @@
+.chat-window {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #8abff5;
+    height: 100vh;
+    position: relative;
+}
+
+.chat-window .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-left: 1px solid #000;
+    padding: 0 20px;
+    font-size: 28px;
+}
+
+.chat-window .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit:cover;
+    margin-right: 30px;
+}
+
+.chat-window .messages {
+    margin-top: 80px;
+    max-height: 520px;
+    overflow: auto;
+    width: 100%;
+}
+
+.chat-window .sent {
+    background-color: #eeffde;
+    margin-left: auto;
+}
+
+.chat-window .received {
+    background-color: #fff;
+}
+
+.chat-window--message {
+    border-radius: 10px;
+    line-height: 24px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.chat-window .send {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+.chat-window .send textarea {
+    width: 100%;
+    margin-right: 5px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    resize: none;
+}
+
+.chat-window .send button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+}
